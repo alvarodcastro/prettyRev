@@ -1,6 +1,6 @@
-# prettyRev
+# Just Another Reverse Shell but Interactive (JARSI)
 
-![prettyRev Banner](https://img.shields.io/badge/Reverse%20Shell-Pretty%20and%20Simple-blueviolet?style=for-the-badge&logo=gnu-bash)
+![JARS Banner](https://img.shields.io/badge/Reverse%20Shell-Pretty%20and%20Simple-blueviolet?style=for-the-badge&logo=gnu-bash)
 
 A minimal, pretty, and effective reverse shell toolkit using `socat` for both shell and listener. Perfect for CTFs, pentesting, and quick remote access scenarios.
 
@@ -8,7 +8,7 @@ A minimal, pretty, and effective reverse shell toolkit using `socat` for both sh
 
 ## 🚀 Purpose
 
-**prettyRev** provides a clean and reliable way to establish reverse shells using Bash and socat. It includes:
+**JARS** provides a clean and reliable way to establish reverse shells using Bash and socat. It includes:
 - `revShell.sh`: Initiates a reverse shell to a remote attacker.
 - `revListener.sh`: Sets up a listener to catch incoming reverse shells, and can be used to enhance the shell experience (autocompletion, arrow keys, etc.) on servers with limited command support. 
 
@@ -58,7 +58,7 @@ sudo apt update && sudo apt install socat
 
 ---
 
-## ❓ When to Use prettyRev
+## ❓ When to Use JARS
 This tool is especially useful when the target system:
 - Does **not** have Python installed
 - Has Python, but `pty` cannot be imported (so you can't upgrade shells easily)
@@ -66,7 +66,7 @@ This tool is especially useful when the target system:
 - Does **not** have a fully functional `nc` (Netcat) command, or only provides a limited client (e.g., BusyBox's older versions)
 - Presents other restrictions that prevent you from getting a stable, interactive shell
 
-By using socat, prettyRev helps you get a more interactive and reliable shell in these restrictive environments.
+By using socat, JARS helps you get a more interactive and reliable shell in these restrictive environments.
 
 ---
 
@@ -93,4 +93,4 @@ This project is for educational and authorized penetration testing purposes only
 
 ---
 
-Enjoy your pretty shells! 🐚✨
+Enjoy your interactive shells! 🐚✨
