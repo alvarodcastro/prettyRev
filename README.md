@@ -1,6 +1,6 @@
 # Just Another Reverse Shell (JARS)
 
-![JARS Banner](https://img.shields.io/badge/Reverse%20Shell-Pretty%20and%20Simple-blueviolet?style=for-the-badge&logo=gnu-bash)
+![JARS Banner](https://img.shields.io/badge/Reverse%20Shell-Interactive%20and%20Simple-blueviolet?style=for-the-badge&logo=gnu-bash)
 
 A minimal, pretty, and effective reverse shell toolkit using `socat` for both shell and listener. Perfect for CTFs, pentesting, and quick remote access scenarios.
 
