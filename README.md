@@ -1,4 +1,4 @@
-# Just Another Reverse Shell but Interactive (JARSI)
+# Just Another Reverse Shell (JARS)
 
 ![JARS Banner](https://img.shields.io/badge/Reverse%20Shell-Pretty%20and%20Simple-blueviolet?style=for-the-badge&logo=gnu-bash)
 
